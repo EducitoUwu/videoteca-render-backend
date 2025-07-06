@@ -7,6 +7,7 @@ import { S3Service } from '../s3/s3.service';
 import config from '../config/config';
 import { ConfigType } from '@nestjs/config';
 import { GetObjectCommand, S3Client } from '@aws-sdk/client-s3';
+import { Express } from 'express';
 
 @Injectable()
 export class VideoStorageService {
