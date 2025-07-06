@@ -1,4 +1,4 @@
-.import { Test, TestingModule } from '@nestjs/testing';
+import { Test, TestingModule } from '@nestjs/testing';
 import { SectionService } from './section.service';
 import { getRepositoryToken } from '@nestjs/typeorm';
 import { Section } from '../entities/section.entity';
