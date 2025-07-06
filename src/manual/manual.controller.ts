@@ -22,7 +22,7 @@ import { ReorderSubsectionsDto } from './dto/reorder-subsections.dto';
 import { ManualService } from './services/manual.service';
 import { SectionService } from './services/section.service';
 import { SubsectionService } from './services/subsection.service';
-import { ApiResponse } from 'src/common/types/ApiResponse.interface';
+import { ApiResponse } from '../common/types/ApiResponse.interface';
 import { Manual } from './entities/manual.entity';
 
 @UseGuards(JwtAuthGuard)

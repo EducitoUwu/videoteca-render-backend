@@ -13,10 +13,10 @@ import {
   ApiTags,
   ApiResponse as SwaggerApiResponse,
 } from '@nestjs/swagger';
-import { ApiResponse } from 'src/common/types/ApiResponse.interface';
-import { FirebaseRequest } from 'src/common/types/FirebaseRequest.interface';
-import { GoogleRequest } from 'src/common/types/GoogleRequest.interface';
-import { RefreshTokenResponse } from 'src/common/types/RefreshTokenResponse.interface';
+import { ApiResponse } from '../common/types/ApiResponse.interface';
+import { FirebaseRequest } from '../common/types/FirebaseRequest.interface';
+import { GoogleRequest } from '../common/types/GoogleRequest.interface';
+import { RefreshTokenResponse } from '../common/types/RefreshTokenResponse.interface';
 import { AuthService } from './auth.service';
 import { LoginResponse } from './dto/login-response.dto';
 import { FirebaseAuthGuard } from './guards/firebase-auth.guard';

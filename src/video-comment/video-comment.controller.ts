@@ -13,7 +13,7 @@ import { JwtAuthGuard } from '../auth/guards/jwt-auth.guard';
 import { CreateVideoCommentDto } from './dto/create-video-comment.dto';
 import { UpdateVideoCommentDto } from './dto/update-video-comment.dto';
 import { VideoCommentService } from './video-comment.service';
-import { ApiResponse } from 'src/common/types/ApiResponse.interface';
+import { ApiResponse } from '../common/types/ApiResponse.interface';
 
 @UseGuards(JwtAuthGuard)
 @Controller('video-comments')

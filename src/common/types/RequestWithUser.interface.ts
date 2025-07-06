@@ -1,4 +1,4 @@
-import { JwtPayloadDto } from 'src/auth/dto/jwt-payload.dto';
+import { JwtPayloadDto } from '../../auth/dto/jwt-payload.dto';
 
 export interface RequestWithUser extends Request {
   user: JwtPayloadDto;

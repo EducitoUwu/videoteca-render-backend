@@ -1,4 +1,4 @@
-import { IUser } from 'src/users/types/user.interface';
+import { IUser } from '../../users/types/user.interface';
 
 export interface LoginResponse {
   user: IUser;

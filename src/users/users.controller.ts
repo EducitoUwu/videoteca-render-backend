@@ -10,8 +10,8 @@ import {
   UseGuards,
 } from '@nestjs/common';
 import { ApiBearerAuth, ApiResponse, ApiTags } from '@nestjs/swagger';
-import { ApiResponse as ResponseType } from 'src/common/types/ApiResponse.interface';
-import { RequestWithUser } from 'src/common/types/RequestWithUser.interface';
+import { ApiResponse as ResponseType } from '../common/types/ApiResponse.interface';
+import { RequestWithUser } from '../common/types/RequestWithUser.interface';
 import { JwtAuthGuard } from '../auth/guards/jwt-auth.guard';
 import { CreateUserDto } from './dto/create-user.dto';
 import { UpdateUserDto } from './dto/update-user.dto';

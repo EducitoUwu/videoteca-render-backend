@@ -13,7 +13,7 @@ import { JwtAuthGuard } from '../auth/guards/jwt-auth.guard';
 import { CreateVideoBookmarkDto } from './dto/create-video-bookmark.dto';
 import { UpdateVideoBookmarkDto } from './dto/update-video-bookmark.dto';
 import { VideoBookmarkService } from './video-bookmark.service';
-import { ApiResponse } from 'src/common/types/ApiResponse.interface';
+import { ApiResponse } from '../common/types/ApiResponse.interface';
 
 @Controller('video-bookmarks')
 @UseGuards(JwtAuthGuard)

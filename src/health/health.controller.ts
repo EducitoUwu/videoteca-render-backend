@@ -1,6 +1,6 @@
 import { Controller, Get, HttpStatus } from '@nestjs/common';
 import { HealthCheck, HealthCheckService } from '@nestjs/terminus';
-import { ApiResponse } from 'src/common/types/ApiResponse.interface';
+import { ApiResponse } from '../common/types/ApiResponse.interface';
 
 @Controller('health')
 export class HealthController {

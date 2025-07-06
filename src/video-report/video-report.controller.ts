@@ -12,7 +12,7 @@ import {
 import { JwtAuthGuard } from '../auth/guards/jwt-auth.guard';
 import { CreateVideoReportDto } from './dto/create-video-report.dto';
 import { VideoReportService } from './video-report.service';
-import { ApiResponse } from 'src/common/types/ApiResponse.interface';
+import { ApiResponse } from '../common/types/ApiResponse.interface';
 
 @UseGuards(JwtAuthGuard)
 @Controller('video-reports')

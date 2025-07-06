@@ -1,8 +1,8 @@
 import { Inject, Injectable, UnauthorizedException } from '@nestjs/common';
 import { ConfigType } from '@nestjs/config';
 import * as admin from 'firebase-admin';
-import { RefreshTokenResponse } from 'src/common/types/RefreshTokenResponse.interface';
-import config from 'src/config/config';
+import { RefreshTokenResponse } from '../common/types/RefreshTokenResponse.interface';
+import config from '../config/config';
 import {
   ADMIN_EMAILS,
   PROFESOR_UCN_REGEX,

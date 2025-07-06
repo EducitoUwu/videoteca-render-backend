@@ -14,7 +14,7 @@ import { JwtAuthGuard } from '../auth/guards/jwt-auth.guard';
 import { CreateVideoInteractionDto } from './dto/create-video-interaction.dto';
 import { UpdateVideoInteractionDto } from './dto/update-video-interaction.dto';
 import { VideoInteractionService } from './video-interaction.service';
-import { ApiResponse } from 'src/common/types/ApiResponse.interface';
+import { ApiResponse } from '../common/types/ApiResponse.interface';
 
 @ApiTags('video-interactions')
 @UseGuards(JwtAuthGuard)
